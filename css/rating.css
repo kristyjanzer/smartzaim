@@ -1,0 +1,575 @@
+.less_sum,
+.more_sum { 
+	color: #303133;
+}
+
+.more_sum { 
+	margin-right: 5px;
+}
+
+.loan_calculator, .mfo_card, .subscribe_item {
+	padding: 20px 0;
+	border: 1px solid #ebebeb;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	transition: box-shadow, .5s;
+}
+
+.loan_calculator {
+	display: none;
+	text-align: left;
+	font-size: 0;
+	line-height: 1;
+	padding-bottom: 25px;
+	position: relative;
+	margin-bottom: 75px;
+	z-index: 1;
+	margin-bottom: 25px;
+}
+
+.loan_calculator:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30px;
+	bottom: 40px;
+	margin: auto;
+	width: 1px;
+	border-left: 1px solid #d6d6d6;
+}
+
+.loan_calculator_left, .loan_calculator_right {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	padding: 0 30px;
+}
+
+.loan_calculator_left {
+	font-size: 18px;
+}
+
+.loan_calculator_date_label, .loan_calculator_sum_label {
+	display: inline-block;
+}
+
+label.loan_calculator_sum_label, label.loan_calculator_date_label {
+	font-size: 18px;
+	margin: 0;
+	line-height: 1;
+}
+
+.rs_date_output, .rs_sum_output {
+	display: inline-flex;
+	font-weight: 600;
+	color: #146696;
+	margin-left: 10px;
+}
+
+.loan_calculator_date_value, .loan_calculator_sum_value {
+	position: relative;
+	margin: 16px 0 18px;
+}
+
+.loan_calculator_date_max, .loan_calculator_date_min, .loan_calculator_sum_max, .loan_calculator_sum_min {
+	position: absolute;
+	top: 100%;
+	margin-top: 7px;
+	font-size: 12px;
+	color: #777;
+}
+
+.loan_calculator_date_min, .loan_calculator_sum_min {
+	left: 0;
+}
+
+.rangeslider, .rangeslider__fill {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.rangeslider {
+	background: #e1e1e1;
+}
+
+.rangeslider--horizontal {
+	height: 6px;
+}
+
+.rangeslider__fill {
+	background: #ffa900;
+}
+
+.rangeslider__handle {
+	width: 18px;
+	height: 18px;
+	border: 2px solid #ffa900;
+	background: #fff;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.rangeslider--horizontal .rangeslider__handle {
+	top: -6px;
+}
+
+.rangeslider__handle:after {
+	width: 13px;
+	height: 0px;
+}
+
+.loan_calculator_date_max, .loan_calculator_sum_max {
+	right: 0;
+}
+
+.loan_calculator_date {
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.loan_calculator_search {
+	padding-top: 15px;
+}
+
+.loan_calculator_search_left {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 11px;
+	margin-bottom: 15px;
+}
+
+.loan_calculator .search_company {
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 1;
+	padding: 14px 30px 15px;
+	text-transform: none;
+	cursor: pointer;
+}
+
+.loan_calculator_search_right {
+	display: inline-block;
+	vertical-align: top;
+	color: #146696;
+	font-weight: 600;
+}
+
+.loan_calculator_date_right span:first-child, .loan_calculator_sum_right span:first-child {
+	font-weight: 400;
+}
+
+.visible-mobile {
+	display: none;
+}
+
+.loan_calculator_date_right {
+	margin-top: 9px;
+}
+
+.loan_calculator_right {
+	font-size: 16px;
+}
+
+.loan_calculator_ext_header {
+	font-size: 18px;
+	color: #146696;
+	margin-bottom: 35px;
+}
+
+.loan_calculator_ext_params label {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding-left: 22px;
+	line-height: 1;
+	font-size: 16px;
+	margin-bottom: 28px;
+}
+
+.loan_calculator_ext_params input {
+	width: 1px;
+	height: 1px;
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.loan_calculator_ext_params span:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 14px;
+	height: 14px;
+	border: 1px solid #a2a2a2;
+	border-radius: 2px;
+}
+
+.loan_calculator_ext_params span:after {
+	content: '';
+	position: absolute;
+	display: none;
+	top: 1px;
+	left: 2px;
+	border: 1px solid #1f85c5;
+	border-right: 0;
+	border-top: 0;
+	height: 7px;
+	width: 10px;
+	-ms-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.loan_calculator_ext_params input:checked+span:after {
+	display: block;
+}
+
+.loan_calculator_params {
+	margin-top: 15px;
+	margin-left: -10px;
+	font-size: 0;
+}
+
+.loan_calculator_process {
+	background: #fff;
+}
+
+.loan_calculator_method, .loan_calculator_process {
+	display: inline-block;
+	vertical-align: top;
+	font-size: 16px;
+	width: 50%;
+	padding-left: 10px;
+}
+
+.loan_calculator_method>span, .loan_calculator_process>span, .loan_calculator_method>label, .loan_calculator_process>label {
+	display: block;
+	font-size: 12px;
+	color: #146696;
+}
+
+.loan_calculator_method>label, .loan_calculator_process>label {
+	line-height: 1;
+}
+
+select:not([multiple]) {
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTBweCIgaGVpZ2h0PSIyMHB4IiB2aWV3Qm94PSIwIDAgNTAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUwIDIwIiB4bWw6c3BhY2U9InByZXNlcnZlIj48cGF0aCBkPSJNMjIuNiw4YzAtMC4xLDAtMC4yLDAuMS0wLjJsMC41LTAuNWMwLjEtMC4xLDAuMS0wLjEsMC4yLTAuMWMwLjEsMCwwLjIsMCwwLjIsMC4xbDMuNywzLjdsMy43LTMuN2MwLjEtMC4xLDAuMS0wLjEsMC4yLTAuMXMwLjIsMCwwLjIsMC4xTDMyLDcuOEMzMiw3LjksMzIuMSw4LDMyLjEsOGMwLDAuMSwwLDAuMi0wLjEsMC4ybC00LjQsNC40Yy0wLjEsMC4xLTAuMSwwLjEtMC4yLDAuMXMtMC4yLDAtMC4yLTAuMWwtNC40LTQuNEMyMi43LDguMiwyMi42LDguMSwyMi42LDh6Ii8+PC9zdmc+);
+}
+
+.select_loan_calculator {
+	display: block;
+	font-size: 14px;
+	line-height: initial;
+	margin: 9px 0 0;
+	padding: 10px 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	font-weight: 400;
+	border: 1px solid #eee;
+	background-color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.loan_calculator_sort {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.loan_calculator_sort_header {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	line-height: 20px;
+	margin-right: 6px;
+}
+
+.loan_calculator_text_before span, .uncode_text_column h1, .loan_calculator_sort_header, .breadcrumb li, .breadcrumb li a {
+	color: #fff;
+}
+
+label.loan_calculator_sort_header {
+	margin: 0 0 0 0;
+}
+
+.loan_calculator_sort_params {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 14px;
+	width: 265px;
+}
+
+#select_loan_calculator_sort_rating, #select_loan_calculator_sort {
+	color: #000;
+	margin-top: 0;
+	background-color: #fff;
+	border-color: #eaeaea;
+}
+
+.loan_calculator_submit_mobile {
+	display: none;
+	margin-top: 25px;
+}
+
+.loan_calculator_submit_mobile .search_company {
+	font-size: 18px;
+}
+
+
+
+/** Page Rating ************************************/
+.rating .main-title .title {
+	padding-bottom: 0;
+}
+
+.rating .main-title .descr {
+	padding-top: 36px;
+}
+
+.rating .ratings {
+	margin-top: 0;
+}
+
+.main-title .updated {
+	position: relative;
+	font-size: 11px;
+	font-weight: 100;
+	z-index: 1;
+	color: #222;
+	text-align: center;
+}
+
+
+
+.offers-card-btn {
+	width: 180px;
+	background: #fda729;
+	border-radius: 4px;
+	border: 1px solid #fda729;
+	padding: 8px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.offers-rating {
+	font-size: 14px;
+	text-align: center;
+	color: #000;
+	transition: box-shadow, .5s;
+	overflow: hidden;
+	position: relative;
+}
+
+.offers-rating-wrap {
+	background: #fff;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+.rating .loan_calculator_sort_header {
+	font-size: 18px;
+	color: #146696;
+}
+
+.rating .loan_calculator_sort {
+	top: 0;
+	position: relative;
+	text-align: center;
+	margin-top: 0;
+}
+
+.rating .loan_calculator_sort_params {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font-size: 14px;
+	width: 265px;
+}
+
+.rating #select_loan_calculator_sort_rating, #select_loan_calculator_sort {
+	color: #000;
+	margin-top: 0;
+	background-color: #fff;
+	border-color: #eaeaea;
+	padding: 10px 15px;
+	font-size: 14px;
+	border-width: 1px;
+	border-radius: 2px;
+	font-weight: 400;
+}
+
+.rating .offer-container {
+	background: #eff1f1;
+	margin-top: 30px;
+	padding-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.rating .offer-firstloan {
+	width: 190px;
+	height: 29px;
+	margin: -20px 0 0 10px;
+	background: url(../img/uncode-child/firstloan.png) 0 0;
+	padding-top: 2px;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.rating .offer-content {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.rating .offer-row {
+	padding: 0 0 10px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.offer-logo {
+	width: 165px;
+	margin: 20px 0 0 10px;
+}
+
+.offer-row-col {
+	font-size: 18px;
+	font-weight: 700;
+	color: #146696;
+	clear: both;
+	text-align: center;
+	line-height: normal;
+}
+
+.rating .offer-row-col-weight {
+	font-weight: 500;
+	line-height: normal;
+}
+
+.offer-col {
+	font-size: 28px;
+	font-weight: 700;
+	color: #30a9cf;
+	line-height: normal;
+}
+
+.rating .offer-footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #e0e3e3;
+	padding-left: 30px;
+}
+
+.rating .offer-zaim-calc {
+	color: #fda729;
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	padding: 11px;
+}
+
+.rating .offer-btn {
+	display: flex;
+	align-items: center;
+}
+
+.rating .offers-card-btn {
+	width: 180px;
+	background: #fda729;
+	border-radius: 4px;
+	border: 1px solid #fda729;
+	padding: 8px 0;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 1px;
+}
+
+.rating .offers-compare-btn {
+	width: 28px;
+	height: 27px;
+	background: url(../img/uncode-child/compare.png);
+	margin-right: 10px;
+}
+
+.rating .offers-show-all-btn {
+	display: inline-block;
+	cursor: pointer;
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #fda729;
+	padding: 10px 15px;
+	color: #fda729;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	margin: 15px auto 0;
+}
+
+.rating .offer_row_hidden {
+	display: none;
+}
+
+.rating .rating-info {
+	background: #eaeaea;
+	width: 100%;
+	padding: 30px 0 30px;
+	position: relative;
+	margin-top: 36px;
+}
+
+.rating .rating-info-wrap {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.rating .rating-info-text {
+	font-size: 17px;
+	margin-top: 20px;
+	line-height: 1.45;
+}
+
+.rating .rating {
+	margin-top: 0;
+}
+
+.rating-info-text .email {
+	color: #146696;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.email,
+.phone {
+	color: #146696;
+	display: inline-block;
+}

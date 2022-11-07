@@ -1,0 +1,856 @@
+.offers { 
+	margin-top: 30px;
+}
+
+.offers__items { 
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-right: -35px;
+}
+
+
+.mfo-about {
+	background-color: #fff;
+	padding: 40px 40px 0;
+}
+
+.mfo-about-title {
+	font-size: 30px;
+	line-height: 1;
+	color: #028ab4;
+	text-align: center;
+	font-weight: 500;
+	font-family: 'PT Sans';
+}
+
+.mfo-about-text {
+	font-size: 16px;
+	font-weight: 300;
+	color: #111;
+	line-height: 1.5;
+	margin: 18px 0 0;
+}
+
+
+.content-text {
+	padding: 0 40px;
+	margin-top: 10px;
+}
+
+.content-text-title {
+	color: #028ab4;
+	font-size: 30px;
+	line-height: 1;
+	font-family: 'PT Sans';
+	margin-bottom: 15px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+
+.content-text-list li {
+	font-size: 16px;
+	font-weight: 300;
+	color: #111;
+	position: relative;
+	padding-left: 15px;
+}
+
+.content-text-list li:before {
+	position: absolute;
+	content: '';
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #2c8dc4;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.content-text-descr {
+	font-size: 14px;
+	font-weight: 300;
+	color: #111;
+}
+
+
+.content-reviews {
+	padding: 36px;
+	border-radius: 6px;
+	background-color: #fff;
+	margin-bottom: 36px;
+}
+
+.content-reviews-title {
+	padding: 0 40px;
+	font-weight: 500;
+	font-family: 'PT Sans';
+	line-height: 1.2;
+	font-size: 26px;
+	color: #028ab4;
+}
+
+.content-reviews-item {
+	border-top: 2px dotted;
+	margin-top: 35px;
+}
+
+.content-reviews-item .rr_review_name,
+.content-reviews-item .rr_date {
+	font-size: 14px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 1;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	width: auto;
+	margin-top: 25px;
+	padding-right: 10%;
+}
+
+
+.content-reviews-rating {
+	margin: 15px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.rating__caption {
+	font-size: 14px;
+	font-weight: 300;
+	color: #000;
+	margin-right: 6px;
+}
+
+.content-reviews-rating .rating__stars--sm,
+.content-reviews-rating .rating__stars--sm:before {
+	background-size: 11px 10px;
+}
+
+.content-reviews-rating .rating__stars--sm {
+	min-width: 56px;
+	max-width: 56px;
+	height: 10px;
+	background: url(../img/uncode-child/star.svg) top left/contain repeat-x;
+}
+
+.content-reviews-rating .rating__val {
+	font-weight: 700;
+	font-size: 14px;
+	padding-left: 0;
+}
+
+.content-reviews-text {
+	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+	line-height: 18px;
+	font-family: 'Open Sans';
+}
+
+.content-reviews-plus {
+	margin-top: 16px;
+}
+
+.content-reviews-minus {
+	margin-top: 9px;
+	margin-bottom: 25px;
+}
+
+.content-reviews-minus, .content-reviews-plus {
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 300;
+	color: #000;
+}
+
+.content-reviews-minus span:first-child, .content-reviews-plus span:first-child {
+	float: left;
+	padding-left: 30px;
+	position: relative;
+	width: 100px;
+	font-weight: 600;
+}
+
+.content-reviews-btn {
+	border-radius: 5px;
+	color: #fff;
+	background-color: #146696;
+	border-color: #146696;
+	font-weight: 600;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 12px;
+	padding: 13px 31px;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.content-reviews-plus span:first-child {
+	color: #028ab4;
+}
+
+.content-reviews-minus span:first-child {
+	color: #ee0202;
+}
+
+.content-reviews-minus span:first-child:before, .content-reviews-plus span:first-child:before {
+	content: '';
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid;
+}
+
+.content-reviews-plus span:first-child:after {
+	content: '+';
+	top: -1px;
+	left: 5px;
+}
+
+.content-reviews-minus span:first-child:after {
+	content: '\2013';
+	top: -2px;
+	left: 6px;
+}
+
+.content-reviews-minus span:first-child:after, .content-reviews-plus span:first-child:after {
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 700;
+	color: inherit;
+	position: absolute;
+}
+
+.review-form .content-reviews-rating {
+	margin-top: 5px;
+}
+
+.review-form {
+	margin-bottom: 38px;
+	border-top: 2px dotted;
+}
+
+.review-form__stars {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.review-form .rating {
+	display: table-cell;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.review-form__select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	left: 10px;
+	top: 2px;
+}
+
+.rr_star, .stars {
+	color: #ffa800;
+}
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.glyphicon-star-empty:before {
+	content: "\e007";
+}
+
+.rating-row {
+	display: flex;
+	align-items: center;
+}
+
+.rr_stars_container {
+	margin-left: 10px;
+}
+
+.review-form__textarea-wrap {
+	margin-top: 17px;
+	display: flex;
+	flex-direction: column;
+}
+
+.review-form__textarea-wrap .textarea-review {
+	height: 130px;
+	border-color: #aeaeae;
+}
+
+.form-err {
+	color: red;
+	font-style: italic;
+	font-size: .8em;
+	line-height: .6em;
+}
+
+.review-form__textarea-wrap textarea {
+	border-radius: 5px;
+	padding: 15px 20px;
+	height: 80px;
+	font-size: 18px;
+	background-color: #fff;
+	width: 100%;
+	resize: none;
+	margin: 9px 0 0;
+	font-weight: 400;
+	display: block;
+	font-family: 'Open Sans';
+}
+
+.review-form__textarea-wrap textarea, .review-form__textarea-wrap textarea:focus {
+	border-color: inherit;
+}
+
+.textarea-plus::placeholder {
+	color: #028ab4;
+}
+
+.review-form__textarea-wrap .textarea-plus {
+	color: #028ab4;
+	border: 1px solid #028ab4;
+}
+
+.textarea-minus::placeholder {
+	color: #b40602;
+}
+
+.review-form__textarea-wrap .textarea-minus {
+	color: #b40602;
+	border: 1px solid #b40602;
+}
+
+.review-form__bottom {
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+}
+
+.review-form__input {
+	width: 50%;
+}
+
+.review-form__bottom>div+div {
+	padding-left: 9px;
+}
+
+.review-form__input input {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #777;
+	border-radius: 5px;
+	border-color: #aeaeae;
+	height: 42px;
+}
+
+.review-form__btn button {
+	display: block;
+	border-radius: 4px;
+	letter-spacing: normal;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	font-weight: 600;
+	text-transform: uppercase;
+	outline: none;
+	white-space: nowrap;
+	box-shadow: none;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+	background-color: #146696;
+	border-color: #146696;
+	padding: 13px 31px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	width: 100%;
+}
+
+
+
+
+
+.bank-content-info {
+	padding-top: 27px;
+	padding-bottom: 80px;
+}
+
+.bank-content-info .mfo-about-title {
+	text-align: left;
+}
+
+.info-subtitle {
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	color: #028ab4;
+}
+
+.bank-content-main-info .mfo-head-logo {
+	margin-top: 0;
+	text-align: right;
+	width: 250px;
+	margin-left: auto;
+}
+
+.bank-content-main-info {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.bank-content-main-info .content-main-info__item {
+	flex: 1 0 50%;
+}
+
+
+.bank-content-main-info .content-main-info__item h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.bank-content-main-info .mfo-head__rating {
+	margin-top: 20px;
+}
+
+.bank-mfo-about .mfo-about-title {
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.bank-mfo-about .mfo-about {
+	padding-top: 45px;
+}
+
+.bank-content-reviews .rating__val {
+	color: #ffa800;
+}
+
+.bank-mfo-about .mfo-about-text {
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+}
+
+.mfo-about__table {
+	display: flex;
+	margin-top: 20px;
+}
+
+.mfo-about__table .mfo-about__columns {
+	width: 100%;
+}
+
+.mfo-about__table .mfo-about__col {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 5px 0 15px;
+}
+
+.mfo-about__table .mfo-about__col:not(:first-child) {
+	border-top: 2px dotted #898888;
+}
+
+.mfo-about__table .mfo-about__col-left,
+.mfo-about__table .mfo-about__col-right {
+	width: 47%;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.mfo-about__table .mfo-about__col-left {
+	color: #898888;
+	padding: 0 10px 0 0;
+	display: flex;
+	align-items: flex-start;
+}
+
+.mfo-about__table .mfo-about__col-right {
+	color: #000;
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+.mfo-about__table .mfo-about__col-right-link {
+	text-decoration: underline;
+	color: #028ab4;
+}
+
+.blocks-content-text .content-text-items {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+.blocks-content-text .content-text-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	margin-top: 55px;
+}
+
+.blocks-content-text .content-text-item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	border: 3px solid #028ab4;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	padding: 10px 7px;
+	max-width: 145px;
+	width: 100%;
+	min-height: 130px;
+	box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+	margin: 0 20px 15px 0;
+}
+
+.blocks-content-text .content-text-item span {
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.blocks-content-text .content-text-item-img {
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.blocks-content-text .content-text-item img {
+	width: 50px;
+}
+
+.w100 img {
+	width: 100% !important;
+}
+
+
+.bank-rating-text {
+	padding: 0 40px;
+	margin-top: 55px;
+}
+
+.bank-rating-text .rating-text-title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	color: #028ab4;
+}
+
+.bank-rating-text .rating-text-columns {
+	max-width: 400px;
+	margin-top: 30px;
+}
+
+.bank-rating-text .rating-text-col {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	padding: 6px 0;
+}
+
+.bank-rating-text .rating-text-col-left,
+.bank-rating-text .rating-text-col-right {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	width: 50%;
+}
+
+.bank-rating-text .rating-text-col-left {
+	color: #898888;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.bank-rating-text .rating-text-col-right {
+	color: #000000;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.bank-maps {
+	margin: 38px auto 0;
+	max-width: 100%;
+	padding: 0 23px;
+	width: 100%;
+}
+
+.bank-contacts-content-info {
+	padding-bottom: 45px;
+}
+
+.bank-contacts-mfo-about {
+	padding: 5px 15% 0;
+}
+
+.bank-contacts-mfo-about .mfo-about__columns {
+	max-width: 510px;
+}
+
+.bank-contacts-mfo-about .mfo-about__col {
+	justify-content: flex-start;
+}
+
+.bank-contacts-mfo-about .mfo-about__col-left,
+.bank-contacts-mfo-about .mfo-about__col-right {
+	width: auto;
+}
+
+.bank-contacts-mfo-about .mfo-about__col-left {
+	color: #070707;
+	font-weight: 500;
+}
+
+.bank-contacts-mfo-about .mfo-about__col-right {
+	color: #070707;
+	font-weight: 400;
+}
+
+.bank-contacts-mfo-about .mfo-about__col {
+	padding: 15px 0;
+}
+
+.bank-finance-mfo-about .mfo-about__table {
+	justify-content: space-between;
+}
+
+.bank-finance-mfo-about .mfo-about__columns {
+	width: 45%;
+}
+
+.bank-finance-mfo-about .mfo-about__col-right {
+	justify-content: flex-end;
+}
+
+.bank-finance-mfo-about .mfo-about__col-left,
+.bank-finance-mfo-about .mfo-about__col-right {
+	width: 65%;
+	font-size: 14px;
+}
+
+.bank-finance-mfo-about .mfo-about__col-right {
+	font-size: 18px;
+	color: #020202;
+	width: 35%;
+}
+
+.bank-finance-content-info {
+	padding-bottom: 70px;
+}
+
+.bank-finance-mfo-about,
+.bank-requisites-mfo-about {
+	padding: 20px 75px 0;
+}
+
+.bank-finance-mfo-about .mfo-about__col {
+	padding: 10px 0 10px;
+}
+
+.bank-requisites-mfo-about .mfo-about__col {
+	justify-content: flex-start;
+	padding: 10px 0 10px;
+}
+
+.bank-requisites-mfo-about .mfo-about__col-left,
+.bank-requisites-mfo-about .mfo-about__col-right {
+	width: 60%;
+	font-size: 14px;
+}
+
+.bank-requisites-mfo-about .mfo-about__col-right {
+	font-size: 16px;
+	width: 40%;
+}
+
+.bank-offers .offers__items {
+	padding-bottom: 80px;
+}
+
+.bank-offers .mfo_card {
+	min-height: 590px;
+}
+
+.bank-offers .mfo_card .mfo_card_company-link {
+	width: 215px;
+}
+
+.bank-offers .mfo_card_company {
+	margin: 5px 0;
+	max-width: 240px;
+}
+
+.bank-offers .mfo_card_info_link {
+	border: none;
+}
+
+.bank-offers .mfo_card_company-name a {
+	color: #028ab4;
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+.bank-offers .mfo_card_info_rating {
+	border-bottom: 2px dotted #000;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.bank-offers .mfo_card_info_rating_label {
+	font-size: 15px;
+}
+
+.bank-offers .rating__val {
+	color: #131014;
+	font-size: 16px;
+}
+
+.bank-offers .mfo_card {
+	padding: 15px 20px 20px;
+}
+
+.bank-offers .mfo_card_info_reviews {
+	padding: 5px 0 8px;
+	border-bottom: 2px dotted #000;
+}
+
+.bank-offers .mfo_card_info_link {
+	color: #028ab4;
+	font-size: 15px;
+	text-decoration: underline;
+	text-align: left;
+	padding: 3px 0;
+}
+
+.bank-offers .mfo_card_info_about_text {
+	color: #000000;
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: left;
+}
+
+.bank-offers .mfo_card_info_about {
+	margin-top: 0;
+}
+
+.bank-offers .mfo_card_info_links {
+	border-bottom: 2px dotted #000;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+.bank-offers .mfo_card_info_links-col {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.bank-offers .mfo_card_info_links-col-icons {
+	font-size: 0;
+	width: 23px;
+}
+
+.bank-offers-horizontal .offers__items {
+	flex-direction: column;
+}
+
+.bank-offers-horizontal .mfo_card {
+	width: 100%;
+	min-height: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	margin-right: 0;
+}
+
+.bank-offers-horizontal .offers__items {
+	margin: 0;
+}
+
+.bank-offers-horizontal .mfo_card_info_inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bank-offers-horizontal .mfo_card_info_rating {
+	border: none;
+}
+
+.bank-offers-horizontal .mfo_card_info_reviews {
+	border: none;
+}
+
+.bank-offers-horizontal .mfo_card_info_links {
+	border: none;
+}
+
+.bank-offers-horizontal .mfo_card_info_about {
+	max-width: 360px;
+}
+
+.bank-offers-horizontal .mfo_card_box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 185px;
+}
+
+.bank-offers-horizontal .mfo_card_info_links-col {
+	justify-content: flex-start;
+}
+
+.bank-offers-horizontal .mfo_card_info_links-col-icons {
+	margin-right: 15px;
+}

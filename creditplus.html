@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>CreditPlus - smartzaim.kz</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="img/2016/05/cropped-smartzaimkz_favicon-32x32.png" sizes="32x32">
+	<link rel="icon" href="img/2016/05/cropped-smartzaimkz_favicon-192x192.png" sizes="192x192">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="libs/rangeslider/rangeslider.css" />
+	<link rel="stylesheet" href="libs/fontawesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/mfo.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="custom-background" id="creditplus">
+
+	<div class="wrapper creditplus">
+
+		<header class="header">
+			<div class="header-body">
+				<div class="header-body__container limit-width">
+					<div class="header-body__row header-body__row--top">
+						<div class="header-body__col header-body__col--top-left">
+							<div class="header-logo"> 
+								<a href="#"> 
+									<noscript>
+										<img src="img/2016/05/logo-2.png" alt="logo">
+									</noscript> 
+									<img	src='data:image/svg+xml,%3Csvg%20xmlns=%22https://www.w3.org/2000/svg%22%20viewBox=%220%200%201%201%22%3E%3C/svg%3E'	data-src="img/2016/05/logo-2.png" alt="logo"	class="lazyload">
+								</a>
+							</div>
+						</div>
+						<div class="header-body__col header-body__col--top-right">
+							<div class="header-body__search-btn desktop-hidden">
+								<div class="navbar-search"> 
+									<button type="button" class="js-header-btn-m"	data-block="search" aria-label="Поиск">
+										<svg id="i-head-search" viewBox="0 0 34 33.99"><g style="stroke:currentColor;fill:none;stroke-width:1.91;stroke-linecap:round;stroke-linejoin:round"><path d="M33.04 29.93l-3.1 3.1-7.96-7.96 3.15-3.05 7.91 7.91z"></path><path d="M14.14.95c7.28 0 13.19 5.91 13.19 13.19 0 7.28-5.91 13.19-13.19 13.19C6.86 27.33.95 21.42.95 14.14.95 6.86 6.86.95 14.14.95zM14.02 4.69c5.27 0 9.54 4.27 9.54 9.54"></path></g></svg>
+									</button>
+								</div>
+							</div>
+							<div class="header-cab"> 
+								<a href="#" class="header-cab__btn header-cab__btn--outline">Войти</a>
+								<a href="#" class="header-cab__btn desktop-visible">Регистрация</a>
+							</div>
+							<div class="header-body__menu-btn desktop-hidden"> 
+								<button type="button" class="header-menu-btn" id="headerMenuBtn" aria-label="Меню"> 
+										<svg width="25" height="20" id="i-head-menu-open" viewBox="0 0 66.38 55.316">
+											<path d="M63.617 44.25H2.766c-.75 0-1.399.273-1.942.824C.274 45.621 0 46.27 0 47.02v5.53c0 .75.273 1.395.824 1.946.547.547 1.192.82 1.942.82h60.851c.746 0 1.395-.273 1.942-.82.546-.55.82-1.195.82-1.945V47.02c0-.75-.27-1.399-.82-1.946-.547-.55-1.196-.824-1.942-.824M65.559.82C65.012.273 64.363 0 63.617 0H2.766C2.016 0 1.367.273.824.82.274 1.371 0 2.016 0 2.762v5.535c0 .75.273 1.394.824 1.945.547.547 1.192.82 1.942.82h60.851c.746 0 1.395-.273 1.942-.82.55-.55.82-1.195.82-1.945V2.762c0-.746-.27-1.39-.82-1.942M63.617 22.125H2.766c-.75 0-1.399.273-1.942.82-.55.547-.824 1.2-.824 1.946v5.535c0 .746.273 1.394.824 1.941.547.547 1.192.82 1.942.82h60.851c.746 0 1.395-.273 1.942-.82.546-.547.82-1.195.82-1.941V24.89c0-.746-.274-1.399-.82-1.946-.547-.547-1.196-.82-1.942-.82"></path>
+										</svg>
+									<svg width="19" height="19" id="i-head-menu-close" viewBox="0 0 19 19">
+										<path fill-rule="evenodd" d="M18.748 16.752l-2.121 2.121L9.5 11.746l-7.127 7.127-2.121-2.121 7.127-7.127L.377 2.623 2.498.502 9.5 7.504 16.502.502l2.121 2.121-7.002 7.002 7.127 7.127z"></path>
+									</svg>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="header-body__row header-body__row--bottom">
+						<div class="header-body__col header-body__col--city">
+							<div class="header-city"> 
+								<span>Выбрать	город</span>
+								<ul>
+									<li><a href="#">Алматы</a></li>
+									<li><a href="#">Актау</a></li>
+									<li><a href="#">Актобе</a></li>
+									<li><a href="#">Атырау</a></li>
+									<li><a href="#">Жезказган</a></li>
+									<li><a href="#">Караганда</a></li>
+									<li><a href="#">Кокшетау</a></li>
+									<li><a href="#">Костанай</a></li>
+									<li><a href="#">Кызылорда</a></li>
+									<li><a href="#">Нур-Султан (Астана)</a></li>
+									<li><a href="#">Павлодар</a></li>
+									<li><a href="#">Петропавловск</a></li>
+									<li><a href="#">Риддер</a></li>
+									<li><a href="#">Семей</a></li>
+									<li><a href="#">Талдыкорган</a></li>
+									<li><a href="#">Тараз</a></li>
+									<li><a href="#">Темиртау</a></li>
+									<li><a href="#">Уральск</a></li>
+									<li><a href="#">Усть-Каменогорск</a></li>
+									<li><a href="#">Шымкент</a></li>
+									<li><a href="#">Экибастуз</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="header-body__col header-body__col--all-mfo"> 
+							<a class="header-all-mfo" href="#" target="_blank">Одна заявка во все МФО</a>
+						</div>
+						<div class="header-body__col header-body__col--top-mfo"> 
+							<a href="#" class="top-10-mfo">
+								<i></i>
+								<span>Топ-10 МФО</span>
+							</a>
+						</div>
+						<div class="header-body__col header-body__col--nav desktop-visible">
+							<nav class="header-body-nav">
+								<ul>
+									<li><a href="#">Акции</a></li>
+									<li><a href="#">Реестр МФО</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-nav-section" id="headerNavSection">
+				<div class="header-nav-section__container limit-width">
+					<div class="header-nav-section__row">
+						<div class="header-nav-section__col">
+							<nav class="header-nav">
+								<div class="header-nav__cab desktop-hidden"> 
+									<a	class="header-nav__link header-nav__link--cab" href="#">Регистрация</a>
+								</div>
+								<ul class="header-nav__list desktop-hidden">
+									<li class="header-nav__item">
+										<a class="header-nav__link" href="#">Акции</a>
+									</li>
+									<li class="header-nav__item">
+										<a class="header-nav__link" href="#">Реестр МФО</a>
+									</li>
+								</ul>
+								<ul class="header-nav__list" id="headerNavAccordion" data-max-w="959">
+									<li class="header-nav__item">
+										<a class="header-nav__link js-header-nav-accordion-toggle">Вид кредита онлайн</a>
+										<div class="header-nav__drop collapse js-header-nav-accordion-collapse">
+											<ul class="header-nav__list-l2">
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займы по паспорту</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Кредит без поручителей</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Заем без справки о доходах</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Микрокредит без залога</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Микрозайм без расписки</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займы до зарплаты</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Кредит для бизнеса</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Краткосрочные займы</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн кредит наличными без справок</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займ без проверок</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ онлайн с плохой кредитной историей</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займы без отказа</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Частный займ без предоплаты</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займы с просрочками</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займы 24 часа</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займы без процентов</a>
+													</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-nav__item">
+										<a class="header-nav__link js-header-nav-accordion-toggle">Способ получения</a>
+										<div class="header-nav__drop collapse js-header-nav-accordion-collapse">
+											<ul class="header-nav__list-l2">
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займ на карту</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займ на
+														банковский счет</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Деньги на счет Казпочты</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ наличными</a>
+													</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-nav__item">
+										<a class="header-nav__link js-header-nav-accordion-toggle">Способ погашения</a>
+										<div
+											class="header-nav__drop collapse js-header-nav-accordion-collapse">
+											<ul class="header-nav__list-l2">
+												<li class="header-nav__item-l2">
+													<a	href="#" class="header-nav__link-l2">Банковская карта</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Банковский перевод</a>
+												</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">CyberPlat</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">QIWI</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Kassa24</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Наличными в кассе
+														банка</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Наличными в АО
+														«Казпочта»</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Наличными в офисе
+														компании</a>
+													</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-nav__item">
+										<a class="header-nav__link js-header-nav-accordion-toggle">Тип занятости</a>
+										<div class="header-nav__drop collapse js-header-nav-accordion-collapse">
+											<ul class="header-nav__list-l2">
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Работающий</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Безработный</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Студент</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займы пенсионерам</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Онлайн займы с 18 лет</a>
+													</li>
+											</ul>
+										</div>
+									</li>
+									<li class="header-nav__item">
+										<a class="header-nav__link js-header-nav-accordion-toggle">Срок займа</a>
+										<div class="header-nav__drop collapse js-header-nav-accordion-collapse">
+											<ul class="header-nav__list-l2">
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ на неделю</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ на 30 дней</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ на 60 дней</a>
+													</li>
+												<li class="header-nav__item-l2">
+													<a href="#" class="header-nav__link-l2">Займ на 90 дней</a>
+													</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</nav>
+							<div class="header-nav-section__search-m desktop-hidden">
+								<div class="search">
+									<form class="search__container"><input class="search__input" type="text" placeholder="Поиск по сайту">
+										<button class="search__btn">
+											<i></i>
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="header-nav-section__col header-nav-section__col--navbar desktop-visible">
+							<div class="header-navbar">
+								<div class="header-navbar__row">
+									<div class="header-navbar__col"> 
+										<a class="navbar-feedback" href="#">
+											<svg width="26" height="26" id="i-head-feedback" viewBox="0 0 30 30">
+												<path d="M29.068 24.569l-4.387-4.387c.073.02.145.045.224.045a2.721 2.721 0 002.717-2.718V2.719A2.721 2.721 0 0024.905 0H2.719A2.722 2.722 0 000 2.719V24.28c0 .541.323 1.023.823 1.23a1.33 1.33 0 001.451-.289l4.987-4.993h6.55a.87.87 0 100-1.74H6.9a.87.87 0 00-.616.256L1.74 23.292V2.719a.98.98 0 01.979-.979h22.186c.539 0 .977.439.977.979V17.51a.979.979 0 01-.977.978.87.87 0 00-.87.87c0 .08.024.15.045.224l-.567-.567a.87.87 0 00-1.23 0l-2.326 2.327-5.307-5.306 1.273-1.272c.041-.04.06-.09.09-.135l4.636 4.636a.87.87 0 101.23-1.23l-5.228-5.229a.883.883 0 00-.34-.21l-2.943-.981a.86.86 0 00-.526-.002l-.114-.114a.87.87 0 10-1.23 1.23l.114.114a.863.863 0 00.002.525l.98 2.942c.002.008.01.014.013.021a.86.86 0 00.197.318l6.003 6.004a.858.858 0 00.208.859l5.555 5.557c.601.6 1.4.931 2.248.931a3.16 3.16 0 002.25-.932 3.186 3.186 0 000-4.499zm-.828 2.441l-3.003-3.004c.044-.158.075-.319.075-.488 0-.092-.014-.181-.027-.271l2.553 2.552c.329.33.459.782.402 1.211zm-5.332-2.888l.001.003-.046.046.045-.049zm-9.421-10.634l.937.312-.625.624-.312-.936zm9.41 7.371l.907.907c-.555-.085-1.147.072-1.557.482-.339.34-.526.789-.526 1.269 0 .091.014.179.026.268l-.889-.889 2.039-2.037zm2.903 6.979l-2.551-2.552c.088.013.177.026.268.026.17 0 .332-.031.49-.075l2.979 2.978c-.428.048-.872-.064-1.186-.377z"></path>
+												<path d="M22.076 7.341a.87.87 0 00-.87-.87H6.417a.87.87 0 100 1.74h14.79a.87.87 0 00.869-.87zM6.417 11.093a.87.87 0 000 1.74H9.19a.87.87 0 100-1.74H6.417z"></path>
+											</svg>
+										</a>
+									</div>
+									<div class="header-navbar__col"> 
+										<a class="navbar-compare" href="#" data-counter="0">
+											<svg width="26" height="26" id="i-head-compare" viewBox="0 0 32.33 32.1">
+												<g style="stroke:currentColor;fill:none;stroke-width:1.91;stroke-linecap:round;stroke-linejoin:round">
+												<path d="M5.52 24.24L31.37 9.03M18.45 16.63V30.2M6.8 31.14h23.52M11.37 13.41c0 2.88-2.33 5.21-5.21 5.21-2.87 0-5.21-2.33-5.21-5.21 0-2.87 2.34-5.2 5.21-5.2 2.88 0 5.21 2.33 5.21 5.2zM29.5 4.58c0 2-1.62 3.63-3.63 3.63-2 0-3.62-1.63-3.62-3.63S23.87.96 25.87.96c2.01 0 3.63 1.62 3.63 3.62z"></path>
+											</g>
+											</svg>
+										</a>
+									</div>
+									<div class="header-navbar__col">
+										<div class="navbar-search"> 
+											<input type="text" class="navbar-topmenu-search__input">
+											<button type="button">
+												<svg>
+													<use xlink:href="#i-head-search" />
+												</svg>
+											</button>
+										</div>
+									</div>
+									<div class="header-navbar__col"> 
+										<a class="navbar-phone" href="tel:+77172727920">
+											<svg width="25" height="25" id="i-head-phone" viewBox="0 0 31.27 32.05">
+												<g style="stroke:currentColor;fill:none;stroke-width:1.91;stroke-linecap:round;stroke-linejoin:round"><path d="M24.74 14.22c.17-1.06.08-2.11-.21-3.07a7.18 7.18 0 00-1.81-3.05c-.85-.85-1.92-1.43-3.05-1.61-.66-.11-1.35-.07-2.03.13"></path>
+													<path d="M29.71 16.65c.85-2.57.76-5.19 0-7.52-.58-1.8-1.56-3.43-2.82-4.75-1.27-1.34-2.83-2.36-4.56-2.93-1.92-.63-4.03-.69-6.18.01M9.05 11.2c-1.59 1.55-1.11 5.03 1.16 8 2.27 2.97 5.51 4.34 7.42 3.2"></path>
+													<path d="M22.81 29.16c-.07.12-.43.43-1.77 1.42-2.62 1.93-8.83-1.72-14.23-8.77C1.4 14.75-.43 7.82 2.04 5.78c1.33-1.09 1.7-1.34 1.82-1.35M23.36 28.19l-4.99-6.52a.858.858 0 01.15-1.2l2.27-1.73c.37-.29.91-.22 1.2.15l5 6.53c.28.37.21.91-.16 1.2l-2.27 1.73a.85.85 0 01-1.2-.16zM9.93 10.66l-5-6.52a.869.869 0 01.16-1.2l2.27-1.73a.85.85 0 011.2.16l5 6.52c.28.37.21.91-.16 1.2l-2.27 1.73a.85.85 0 01-1.2-.16z"></path>
+												</g>
+											</svg>
+											<span>+7 (717) 272 79 20</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	
+	<main>
+	
+		<section class="breadcrumbs plr">
+			<div class="breadcrumbs-wrap limit-width">
+				<ul class="breadcrumbs__items">
+					<li>
+						<a href="/">Займы онлайн</a>
+					</li>
+					<li>
+						CreditPlus
+					</li>
+				</ul>
+			</div>
+			<img class="main-title__img" src="img/uncode-child/bg-sm.png" alt="">
+		</section>
+		
+		
+		<section class="content plr">
+			<div class="content-wrap limit-width">
+				<div class="content-row">
+					<div class="content-box">
+						<div class="content-info">
+							<ul	class="nav nav-tabs">
+								<li class="active">
+									<a href="creditplus.html">
+										<span>О	компании</span>
+									</a>
+								</li>
+								<li class="">
+									<a href="creditplus-login.html">
+										<span>Личный	кабинет</span>
+										</a>
+								</li>
+								<li class="">
+									<a href="creditplus-reviews.html">
+										<span>Отзывы ( <span	class="rr-reviews-count">6</span> )</span>
+									</a>
+								</li>
+								<li	class="add_to_compare">
+									<a data-mfo="creditplus"	data-title="CreditPlus"	href="#">
+										<span>Сравнить</span>
+									</a>
+								</li>
+							</ul>
+							<div class="content-main-info">
+								<div class="content-main-info__item">
+									<h1>ТОО «МФО «Kredit Seven Kazakhstan (Кредит Севен Казахстан)»</h1>
+									<div class="mfo-head__rating">
+										<div class="rating">
+											<div class="rating__stars" style="width:90%"></div>
+											<div class="rating__val">4.8</div>
+										</div>
+									</div>
+									<div class="mfo-head__text">Перейти	на	официальный	сайт
+										<a href="#">creditplus.kz</a>
+									</div>
+								</div>
+								<div class="content-main-info__item">
+									<div class="mfo-head-logo">
+										<a href="#">
+											<noscript>
+												<img	src="img/2020/07/creditplus.png">
+												</noscript>
+												<img class="lazyloaded" src="img/2020/07/creditplus.png" data-src="img/2020/07/creditplus.png">
+										</a>
+										<div class="mfo-head-approv">Одобрение: 
+											<span class="mfo-head-approv-value">79%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="content-main-info__content">
+								<div class="akciya-container">
+									<div class="akciya-container-item">
+										<div class="akciya-caption">Акция!
+										</div>
+										<div class="akciya-text">Оформите	микрокредит в Creditplus.kz и	получите подарок!</div>
+									</div>
+									<div class="akciya-container-item">
+										<div class="akciya-date-wrap">
+											<div class="akciya-date">08.10.2020 - 15.01.2021</div>
+											<a href="#" class="akciya-btn">Подробнее</a>
+										</div>
+									</div>
+								</div>
+								<div class="mfo-about">
+									<h2 class="mfo-about-title">О	компании</h2>
+									<p class="mfo-about-text">
+										CreditPlus — это современный	онлайн–сервис по предоставлению	микрокредитов через интернет,	который не требует посещения	отделения МФО и сбора большого	пакета документов. На	заполнение анкеты уходит порядка	10 минут. При положительном	решении денежные средства	переводятся на счет клиента или	платежную карточку. Компания	предлагаем свои услуги	всем, кому необходимо получить	микрокредит оперативно, без	залога и поручителей, а также	без долгих процедур оформления и	дополнительных проверок.
+									</p>
+								</div>
+								<div class="tabs-block">
+									<div class="tabs-block-compare">
+										<a class="tabs-block-compare__link" href="#">Сравнить</a>
+									</div>
+									<div class="tabs-block__columns">
+										<div class="tabs-block__column">
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Срок min, дней</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">15</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Срок max, дней</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">15</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Сумма, min  (тенге)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">20 000</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Сумма, max  (тенге)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">50 000</div>
+												</div>
+											</div>
+										</div>
+										<div class="tabs-block__column">
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Ставка min (% в день)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">1,7</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Ставка max (% в день)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">1,7</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Одобрение (%)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">25</div>
+												</div>
+											</div>
+											<div class="tabs-block__item">
+												<div class="tabs-block__item-left">
+													<div class="tabs-block__item-title">Рассмотрение (мин)</div>
+												</div>
+												<div class="tabs-block__item-right">
+													<div class="tabs-block__item-text">10-25</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-block__controls">
+										<div class="tabs-block-compare">
+											<a class="tabs-block-compare__link" href="#">Сравнить</a>
+										</div>
+										<div class="tabs-block-rules">
+											<p class="tabs-block-rules__text">Условия для повторных клиентов</p>
+										</div>
+										<a href="#" class="tabs-block-button">Получить деньги</a>
+									</div>
+									<div class="tabs-block__open">
+										<div class="tabs-block__columns">
+											<div class="tabs-block__column">
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Срок min, дней</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">10</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Срок max, дней</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">25</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Сумма, min  (тенге)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">30 000</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Сумма, max  (тенге)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">40 000</div>
+													</div>
+												</div>
+											</div>
+											<div class="tabs-block__column">
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Ставка min (% в день)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">1,3</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Ставка max (% в день)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">1,7</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Одобрение (%)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">28</div>
+													</div>
+												</div>
+												<div class="tabs-block__item">
+													<div class="tabs-block__item-left">
+														<div class="tabs-block__item-title">Рассмотрение (мин)</div>
+													</div>
+													<div class="tabs-block__item-right">
+														<div class="tabs-block__item-text">15-25</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="content-text">
+									<h2 class="content-text-title">Способы выдачи:</h2>
+									<ul class="content-text-list">
+										<li>на платежную карту;</li>
+										<li>на IBAN счёт любого	казахстанского банка.</li>
+									</ul>
+									<h2 class="content-text-title">Условия кредитования:</h2>
+									<ul class="content-text-list">
+										<li>возраст клиента должен быть не менее 19 лет;</li>
+										<li>наличие карты или IBAN счёта, открытого в любом банке РК;</li>
+										<li>наличие паспорта и телефона;</li>
+										<li>предоставление достоверной информации при заполнении анкеты;</li>
+										<li>отсутствие непогашенной задолженности перед МФО по ранее оформленным микрокредитам.</li>
+									</ul>
+									<h2 class="content-text-title">Требования к клиентам:</h2>
+									<ul class="content-text-list">
+										<li>право– и дееспособность;</li>
+										<li>возраст от 18 до 65 лет;</li>
+										<li>гражданство Республики Казахстан;</li>
+										<li>финансовая состоятельность.</li>
+									</ul>
+									<h2 class="content-text-title">Как оформить микрокредит на creditplus.kz:</h2>
+									<ul class="content-text-list">
+										<li>выберите подходящие сумму и срок ссуды с помощью специального калькулятора, представленного на официальном сайте сервиса;</li>
+										<li>зарегистрируйтесь и заполните небольшую анкету, укажите реквизиты для зачисления денег — на такую процедуру уйдет не более 10 минут;</li>
+										<li>подайте заявку через интернет;</li>
+										<li>дождитесь решения — оно станет известно в течение 7 минут;</li>
+										<li>при одобрении подпишите договор онлайн с помощью СМС–кода;</li>
+										<li>получите деньги на банковскую карточку или на IBAN счёт.</li>
+									</ul>
+									<h2 class="content-text-title">Как вернуть кредитные средства:</h2>
+									<ul class="content-text-list">
+										<li>через Qiwi–терминал;</li>
+										<li>в личном кабинете;</li>
+										<li>банковским переводом по реквизитам компании;</li>
+										<li>через терминал Касса24.</li>
+									</ul>
+									<h2 class="content-text-title">Преимущества Creditplus:</h2>
+									<ul class="content-text-list">
+										<li>сервис доступен на всей территории РК круглосуточно;</li>
+										<li>заявку можно подать не выходя из дома;</li>
+										<li>есть промокоды;</li>
+										<li>заявления рассматриваются в течение 7 минут;</li>
+										<li>все операции проводятся через интернет;</li>
+										<li>без поручителей и справок о доходах;</li>
+										<li>вероятность одобрения составляет 79% для новых клиентов и 83% — для повторных;</li>
+										<li>можно отложить дату возврата микрокредита;</li>
+										<li>лояльное отношение к клиентам;</li>
+										<li>круглосуточная поддержка клиентов;</li>
+										<li>сразу после погашения долга перед компанией можно подать заявку на новый микрокредит;</li>
+										<li>предусмотрена опция досрочного (полного, а также частичного) возврата микрокредита;</li>
+										<li>узнать величину переплаты можно заранее — воспользовавшись удобным онлайн–калькулятором, представленным на сайте сервиса;</li>
+										<li>выдача и возврат микрокредитов осуществляются несколькими альтернативными способами, из которых можно выбирать подходящий для себя вариант.</li>
+									</ul>
+									<h2 class="content-text-title">Штрафные санкции:</h2>
+									<p class="content-text-descr">При несоблюдении клиентом графика погашения микрокредита ему начисляется неустойка в размере, установленном договором, за каждый день просрочки, начиная с первого дня, следующего за утвержденной датой погашения.</p>
+									<a href="#" class="mfo-money-btn content-text-button">Получить деньги</a>
+								</div>
+								<div class="article-contacts">
+									<div class="article-contacts__inner">
+										<div class="feedback-form article-contacts__form">
+											<div class="feedback-form__title">Задать вопрос	представителю	компании CreditPlus</div>
+											<form>
+												<div class="feedback-form__fields">
+													<div class="feedback-form__group feedback-form__group--sm">
+														<select name="question">
+															<option disabled="" selected="">Выберите	категорию	вопроса</option>
+															<option>Получение займа</option>
+															<option>Погашение займа</option>
+															<option>Предложение	сотрудничества</option>
+															<option>Другие вопросы</option>
+														</select>
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="text" name="surname" value="" size="40" placeholder="Фамилия">
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="text" name="name" value="" size="40" placeholder="Имя">
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="text" name="name" value="" size="40" placeholder="Отчество">
+														<div class="control-check-muted">
+															<input type="checkbox" name="no-patronymic[]" value="У меня нет отчества">
+															<span>У меня нет	отчества</span>
+														</div>
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="email" name="mail" value="" size="40" placeholder="E-mail">
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="tel" name="mobile" value="" size="40" class="tel" placeholder="+7 (___) ___-__-__">
+													</div>
+													<div class="feedback-form__group feedback-form__group--sm">
+														<input type="text" name="subject" value="" size="40" placeholder="Тема обращения">
+													</div>
+													<div class="feedback-form__group">
+														<textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Пожалуйста, опишите Ваш вопрос максимально подробно"></textarea>
+													</div>
+													<div class="feedback-form__group feedback-form__group--submit">
+														<input type="submit" value="Отправить" class="wpcf7-form-control wpcf7-submit"><br><br>
+														<span class="i_agree">Нажимая кнопку «Отправить», Вы даёте согласие на <a class="i_agree-link" href="#" target="_blank">обработку персональных данных</a> и получение рекламных сообщений в SMS и Email.</span>
+													</div>
+												</div>
+											</form>
+											<div class="application_results_success">
+												<div class="credit-results-success">
+													<div class="credit-results-success__head">Спасибо за	обращение!
+													</div>
+													<div class="credit-results-success__text">Проверьте,	пожалуйста,	Вашу почту –	мы отправили	уведомление	о статусе	заявки.
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="contactdetails">
+									<div	class="contactdetails-item details-requisites">
+										<h3 class="contactdetails-title">Реквизиты сервиса	"CreditPlus":</h3>
+										<ul class="contactdetails-list">
+											<li>
+												<span	class="details-weight">Юридическое	название:</span>	ТОО «МФО «Kredit	SevenKazakhstan	(Кредит Севен	Казахстан)»</li>
+											<li>
+												<span	class="details-weight">Юридический	адрес:</span>	050000, Республика	Казахстан, город	Алматы, Алмалинский	район, улица Жибек	жолы, дом № 135,	блок 1, офис 1082
+											</li>
+											<li>
+												<span	class="details-weight">Почтовый	адрес:</span>	Казахстан, город	Алматы, Алмалинский	район, Проспект	ЖИБЕК ЖОЛЫ, дом 135,	индекс 050000</li>
+											<li>
+												<span	class="details-weight">Счёт/ИИК:</span>	KZ746017131000025618
+											</li>
+											<li>
+												<span	class="details-weight">Банк:</span>	АО «Народный Банк	Казахстана»</li>
+											<li>
+												<span	class="details-weight">БИН:</span>	200340016315</li>
+											<li>
+												<span	class="details-weight">БИК:</span>	HSBKKZKX</li>
+											<li>
+												<span	class="details-weight">КНП:</span>	421</li>
+											<li>
+												<span	class="details-weight">КБе:</span>	15</li>
+											<li>
+												<span	class="details-weight">Номер	в	реестре:</span>	02.М.20.010</li>
+											<li>
+												<span	class="details-weight">Дата	включения в	реестр:</span>	25.06.2020</li>
+										</ul>
+									</div>
+									<div	class="contactdetails-item details-contact">
+										<h3 class="contactdetails-title">Контактная информация</h3>
+										<div	class="contact-wrap">
+											<div	class="contact-phone">Телефон:</div>
+											<div	class="contact-phone-field">+7 (700) 777-17-07</div>
+											<div	class="contact-email">E-mail:</div>
+											<div	class="contact-email-field">
+												<a href="#" class="email">info@creditplus.kz</a>
+											</div>
+											<div	class="contact-site">Cайт: 
+												<a class="contact-site-link"	href="#">creditplus.kz</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="mfo-offer-recom">
+									<h3 class="mfo-offer-recom-title">Похожие	предложения</h3>
+									<div class="mfo-offer-recom-container">
+										<div class="firstloan">
+											<div class="firstloan-col">
+												<div class="offer-logo">
+													<a href="#">
+														<noscript>
+															<img	src="img/2016/08/moneyman.png">
+														</noscript>
+															<img class=" ls-is-cached lazyloaded" src="img/2016/08/moneyman.png" data-src="img/2016/08/moneyman.png">
+														</a>
+												</div>
+												<div class="mfo_card_info_rating_data">
+													<div class="rating__stars" style="width:82%">
+													</div>
+													<div class="rating__val">4.4</div>
+									</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Срок/дней</div>
+												<div class="offer-col">5	- 31</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Макс.сумма/<br>тенге</div>
+												<div class="offer-col">75 000</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Ставка в	день</div>
+												<div class="offer-col">от 0,01 %</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Одобрение:</div>
+												<div class="offer-col">74%</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-card-wrap">
+													<a href="#" class="offers-card-btn">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="mfo-offer-recom-container">
+										<div class="firstloan">
+											<div class="firstloan-col">
+												<div class="offer-logo">
+													<a href="#">
+														<noscript>
+															<img	src="img/2018/12/koke.png">
+														</noscript>
+															<img class=" ls-is-cached lazyloaded" src="img/2018/12/koke.png" data-src="img/2018/12/koke.png">
+														</a>
+												</div>
+												<div class="mfo_card_info_rating_data">
+													<div class="rating__stars" style="width:61%">
+													</div>
+													<div class="rating__val">3.1</div>
+											</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Срок/дней</div>
+												<div class="offer-col">5	- 30</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Макс.сумма/<br>тенге</div>
+												<div class="offer-col">135 000</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Ставка в	день</div>
+												<div class="offer-col">0,1 %</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Одобрение:</div>
+												<div class="offer-col">85%</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-card-wrap">
+													<a href="#" class="offers-card-btn">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="mfo-offer-recom-container">
+										<div class="firstloan">
+											<div class="firstloan-col">
+												<div class="offer-logo">
+													<a href="#">
+														<noscript>
+															<img	src="img/2016/08/zaymer.png">
+														</noscript>
+															<img class=" ls-is-cached lazyloaded" src="img/2016/08/zaymer.png" data-src="img/2016/08/zaymer.png">
+														</a>
+												</div>
+												<div class="mfo_card_info_rating_data">
+													<div class="rating__stars" style="width:87%">
+													</div>
+													<div class="rating__val">4.6</div>
+											</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Срок/дней</div>
+												<div class="offer-col">30</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Макс.сумма/<br>тенге</div>
+												<div class="offer-col">138 000</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Ставка в	день</div>
+												<div class="offer-col">от 0,01 %</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-row-col">Одобрение:</div>
+												<div class="offer-col">75%</div>
+											</div>
+											<div class="firstloan-col">
+												<div class="offer-card-wrap">
+													<a href="#" class="offers-card-btn">Подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+							</div>
+							<div class="mfo-about__video">
+								<h3 class="mfo-about__video-title">Как получить деньги в	Creditplus.kz</h3>
+								<div class="yt-video"> 
+									<iframe width="805" height="460" src="https://www.youtube.com/embed/zi3Oag3_7s0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+							</div>
+		
+					</div>
+					<div class="content-reviews">
+						<h2 class="content-reviews-title">Отзывы о CreditPlus</h2>
+						<div class="content-reviews-item">
+							<div class="rr_review_name">Злата</div>
+							<span class="rr_date">13.08.2020</span>
+							<div class="content-reviews-rating">
+								<div class="rating"> 
+									<span class="rating__caption">Простота	получения</span>
+									<div class="rating__stars rating__stars--sm" style="width:100%">
+									</div>
+									<div class="rating__val">5</div>
+								</div>
+								<div class="rating"> 
+									<span class="rating__caption">Скорость	выдачи</span>
+									<div class="rating__stars rating__stars--sm" style="width:100%">
+									</div>
+									<div class="rating__val">5</div>
+								</div>
+								<div class="rating"> 
+									<span class="rating__caption">Служба	поддержки</span>
+									<div class="rating__stars rating__stars--sm" style="width:100%">
+									</div>
+									<div class="rating__val">5</div>
+								</div>
+							</div>
+							<p class="content-reviews-text">Меня	привлекла простота	обращения сюда. Никаких	странных вопросов в	анкете, к тому же заявку	ты заполняешь сам прямо	из дома. Деньги сразу на	карту приходят. Никаких	проблем не возникает,	если в срок отдаешь. Уже	не первый раз обращаюсь	сюда.</p>
+						<div class="content-reviews-plus">
+							<span>Плюсы:</span>
+							<span>Просто и	быстро.</span>
+						</div>
+						<div class="content-reviews-minus">
+								<span>Минусы:</span>
+								<span>Нет, если все	внимательно	делать.</span>
+						</div>
+						</div>
+						<div class="content-reviews-item">
+						<div class="rr_review_name">Сергей</div>
+						<span class="rr_date">29.07.2020</span>
+						<div class="content-reviews-rating">
+							<div class="rating"> 
+								<span class="rating__caption">Простота	получения</span>
+								<div class="rating__stars rating__stars--sm" style="width:100%">
+								</div>
+								<div class="rating__val">5</div>
+							</div>
+							<div class="rating"> 
+								<span class="rating__caption">Скорость	выдачи</span>
+								<div class="rating__stars rating__stars--sm" style="width:100%">
+								</div>
+								<div class="rating__val">5</div>
+							</div>
+							<div class="rating"> 
+								<span class="rating__caption">Служба	поддержки</span>
+								<div class="rating__stars rating__stars--sm" style="width:61%">
+								</div>
+								<div class="rating__val">3</div>
+							</div>
+						</div>
+						<p class="content-reviews-text">О сервисе остались только хорошие впечатления. Мне выдали деньги через полчаса и даже не спросили, куда я собираюсь их потратить. Правда, возникли некоторые сложности при возврате долга, потому что платёж нужно отправлять через банк заранее, а меня никто не предупредил, что в противном случае может возникнуть просрочка.</p>
+					<div class="content-reviews-plus">
+						<span>Плюсы:</span>
+						<span>нецелевое использование займа, оперативное оформление.</span>
+					</div>
+					<div class="content-reviews-minus">
+							<span>Минусы:</span>
+							<span>нет хорошей обратной связи с клиентами.</span>
+					</div>
+						</div>
+						<form class="review-form">
+							<div class="content-reviews-rating">
+								<div class="rating"> 
+									<div class="rating-row">
+										<span class="rating__caption">Простота	получения</span>
+										<div class="rr_stars_container">
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="1"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="2"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="3"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="4"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="5"></span>
+										</div>
+									</div>
+									<span class="form-err"></span>
+									</div>
+								<div class="rating"> 
+									<div class="rating-row">
+										<span class="rating__caption">Скорость выдачи</span>
+										<div class="rr_stars_container">
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="1"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="2"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="3"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="4"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="5"></span>
+										</div>
+									</div>
+									<span class="form-err"></span>
+									</div>
+								<div class="rating"> 
+									<div class="rating-row">
+										<span class="rating__caption">Служба поддержки</span>
+										<div class="rr_stars_container">
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="1"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="2"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="3"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="4"></span>
+											<span class="rr_star glyphicon glyphicon-star-empty" data-id="rEasy" data-rate="5"></span>
+										</div>
+									</div>
+									<span class="form-err"></span>
+									</div>
+							</div>
+							<div class="review-form__textarea-wrap">
+								<textarea class="textarea-review" placeholder="Оставьте свой отзыв" name="rText"></textarea>
+									<textarea class="textarea-plus" placeholder="Плюсы компании" name="rPlus"></textarea>
+									<span class="form-err"></span>
+									<textarea class="textarea-minus" placeholder="Минусы компании" name="rMinus"></textarea>
+									<span class="form-err"></span>
+							</div>
+							<div class="review-form__bottom">
+								<div class="review-form__input">
+									<input type="text" placeholder="Имя" name="rName" value="">
+									<span class="form-err"></span>
+								</div>
+								<div class="review-form__input">
+									<input type="text" placeholder="E-mail">
+									<span class="form-err"></span>
+								</div>
+								<div class="review-form__btn">
+									<button type="submit" class="review-form__btn">Опубликовать отзыв</button>
+									<span class="form-err"></span>
+								</div>
+							</div>
+						</form>
+						<a href="creditplus-reviews.html" class="content-reviews-btn">Смотреть все отзывы о CreditPlus</a>
+					</div>
+				</div>
+	
+					<sidebar class="content-sidebar">
+						<div class="mfo_card">
+							<div class="mfo_card__title">Рейтинг	компании</div>
+							<div class="mfo_card__info ">
+								<div class="mfo_card__rating">
+									<div class="rating">
+										<div class="rating__stars"	style="width:96%"></div>
+										<div	class="rating__val">4.8</div>
+										<div	class="rating__vote">6</div>
+									</div>
+								</div>
+								<div class="aside-rating">
+									<div class="aside-rating-col">
+										<div class="aside-rating-title">Простота	получения</div>
+											<div	class="rating">
+												<div class="rating__stars"	style="width:96%"></div>
+												<div	class="rating__val">4.8</div>
+											</div>
+									</div>
+									<div class="aside-rating-col">
+										<div class="aside-rating-title">Скорость<br />выдачи</div>
+											<div	class="rating">
+												<div class="rating__stars"	style="width:100%"></div>
+												<div	class="rating__val">5.0</div>
+											</div>
+									</div>
+									<div class="aside-rating-col">
+										<div class="aside-rating-title">Служба поддержки</div>
+										<div	class="rating">
+											<div class="rating__stars"	style="width:93%"></div>
+											<div	class="rating__val">4.7</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mfo_card">
+							<div	class="mfo_achieve promo">Акция</div>
+							<div class="mfo_card_company">
+								<div class="mfo_card__title">Предложение creditplus.kz</div>
+							</div>
+							<div class="mfo_card_info mfo_card_info_col">
+								<div	class="mfo_card_info_inner">
+									<div	class="mfo_card_info_time">
+										<div	class="mfo_card_info_time_label">На срок:</div>
+										<div	class="mfo_card_info_time_data">7 - 30 дней</div>
+									</div>
+									<div	class="mfo_card_info_sum">
+										<div	class="mfo_card_info_sum_label">Сумма (тнг):</div>
+										<div	class="mfo_card_info_sum_data">10 000 - 130 000</div>
+									</div>
+									<div	class="mfo_card_info_rate">
+										<div	class="mfo_card_info_rate_label">Ставка:</div>
+										<div	class="mfo_card_info_rate_data">от 0,01 %</div>
+									</div>
+									<div	class="mfo_card_info_accept">
+										<div	class="mfo_card_info_accept_label">Рассмотрение:</div>
+										<div	class="mfo_card_info_accept_data">7 минут</div>
+									</div>
+									<div	class="mfo_card_info_ways">
+										<div	class="mfo_card_info_ways_label">Получить:</div>
+										<div	class="mfo_card_info_ways_data">
+											<noscript>
+												<img	style="height: 20px;"	src="img/2016/08/all.png">
+												</noscript>
+												<img	class="lazyload"	style="height: 20px;"	src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E'	data-src="img/2016/08/all.png">
+										</div>
+									</div>
+								</div>
+								<noindex>
+									<a href="#">
+										<div	class="mfo_card_button">Получить деньги</div>
+									</a>
+								</noindex>
+							</div>
+						</div>
+						<div class="mfo_card">
+							<div class="mfo_card__title">Подать	заявку</div>
+							<div class="mfo_card__info">
+								<div class="mfo_card__text">Не	смогли выбрать компанию?	Оставьте заявку и мы	подберем для Вас наиболее	выгодные займы!</div>
+								<a href="#">
+									<div	class="mfo_card_button">Подробнее</div>
+								</a>
+							</div>
+						</div>
+						<div class="mfo_card">
+							<div class="mfo_card__title">Рейтинг	заемщиков</div>
+							<div	class="aside-rating aside-rating-mfo">
+	
+									<div class="aside-rating-mfo-col">
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<noscript>
+													<img	src="img/2016/08/4slovo-e1550510710120.png">
+													</noscript>
+													<img	class="lazyload"	src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E'	data-src="img/2016/08/4slovo-e1550510710120.png"	style="width: 110px;">
+												</a>
+										</div>
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<div	class="rating rating-wraps">
+													<div class="rating-box">
+														<div class="rating__stars"	style="width:87%"></div>
+													<div	class="rating__val">4.4</div>
+													</div>
+													<div	class="aside-rating-mfo__rev">Отзывы:	177</div>
+												</div>
+											</a>
+										</div>
+									</div>
+	
+									<div class="aside-rating-mfo-col">
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<noscript>
+													<img	src="img2016/08/moneyman.png">
+													</noscript>
+													<img	class="lazyload"	src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E'	data-src="img/2016/08/moneyman.png"	style="width: 110px;">
+												</a>
+										</div>
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<div	class="rating rating-wraps">
+													<div class="rating-box">
+														<div class="rating__stars"	style="width:87%"></div>
+													<div	class="rating__val">4.6</div>
+													</div>
+													<div	class="aside-rating-mfo__rev">Отзывы:	41</div>
+												</div>
+											</a>
+										</div>
+									</div>
+	
+									<div class="aside-rating-mfo-col">
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<noscript>
+													<img	src="img/2018/01/tengokz_300x140_0.png">
+													</noscript>
+													<img	class="lazyload"	src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E'	data-src="img/2018/01/tengokz_300x140_0.png">
+												</a>
+										</div>
+										<div class="aside-rating-mfo-item">
+											<a	href="#">
+												<div	class="rating rating-wraps">
+													<div class="rating-box">
+														<div class="rating__stars"	style="width:87%"></div>
+													<div	class="rating__val">3.6</div>
+													</div>
+													<div	class="aside-rating-mfo__rev">Отзывы:	30</div>
+												</div>
+											</a>
+										</div>
+									</div>
+							</div>
+							<div class="mfo_card__info">
+								<a href="#">
+									<div	class="mfo_card_button">Подобрать другой займ</div>
+								</a>
+							</div>
+						</div>
+						<div class="mfo_card">
+							<form	class="subscribtion_form">
+								<div	class="aside-subscribe-text">Вы хотите первыми узнавать	<br> о специальных	предложениях <br> и акциях?</div>
+								<div	class="email_sidebar_container">
+									<div	class="subscribe-sidebar-item subscribe-sidebar-item--input-email">
+										<input	class="subscribe-sidebar-item__control subscribe-sidebar-item__control--input-email"	placeholder="Email"	type="text"	name="email"	value=""></div>
+									<div	class="subscribe-sidebar-item subscribe-sidebar-item--btn-submit">
+										<input	class="subscribe-sidebar-item__btn subscribe-sidebar-item__btn--btn-submit"	type="submit"	value="Подписаться">
+									</div>
+								</div> 
+							</form>
+						</div>
+						<div class="mfo_card">
+							<div class="mfo_card__title">Полезные материалы</div>
+							<div class="mfo_card__info">
+								<ul class="aside-list">
+									<li> 
+										<span	class="aside-list__date">29.11.2020</span>
+										<a href="#"	class="aside-list__title">Многодетные семьи в ВКО будут исключены из очереди на жилье</a>
+									</li>
+									<li>
+										<span	class="aside-list__date">22.11.2020</span>
+										<a href="#"
+											class="aside-list__title">Дорожная карта занятости работает: 207 тысяч жителей Казахстана нашли работу</a>
+										</li>
+									<li>
+										<span	class="aside-list__date">15.11.2020</span>
+										<a href="#"
+											class="aside-list__title">Власти Казахстана проверят подозрительные денежные интернет-переводы на причастность к наркобизнесу</a>
+										</li>
+								</ul>
+								<a href="#"	class="btn-yellow">Все	статьи</a>
+							</div>
+						</div>
+						<div class="mfo_card">
+							<div class="mfo_card__title">Свежие	новости</div>
+							<div class="mfo_card__info">
+								<ul class="aside-list">
+									<li> 
+										<span	class="aside-list__date">15.11.2020</span>
+										<a href="#"	class="aside-list__title">Власти	Казахстана проверят	подозрительные	денежные	интернет-переводы на	причастность к	наркобизнесу</a>
+									</li>
+									<li>
+										<span	class="aside-list__date">08.11.2020</span>
+										<a href="#"	class="aside-list__title">Moneyman	появился	уполномоченный по	правам клиентов</a>
+									</li>
+									<li>
+										<span	class="aside-list__date">01.11.2020</span>
+										<a href="#"	class="aside-list__title">Средняя	заработная плата	казахстанских	докторов вырастет до	561 000 тенге к 2023	году</a>
+									</li>
+								</ul>
+								<a href="#" target="_blank"	rel="nofollow">
+									<div	class="mfo_card_button">Все новости</div>
+								</a>
+							</div>
+						</div>
+					</sidebar>
+				</div>
+			</div>
+		</section>
+
+		<section class="ratings">
+			<div class="ratings-wrap">
+				<form class="ratings-form">
+					<p class="ratings-item"> 
+						<label class="ratings__description">Оцените наш сайт:</label> 
+						<span class="mr-star-rating mr-star-rating-select"> 
+							<i title="1" class="fa fa-star-o mr-star-empty index-1-rating-item-1-1"></i>
+							<i title="2" class="fa fa-star-o mr-star-empty index-2-rating-item-1-1"></i>
+							<i title="3" class="fa fa-star-o mr-star-empty index-3-rating-item-1-1"></i>
+							<i title="4" class="fa fa-star-o mr-star-empty index-4-rating-item-1-1"></i>
+							<i title="5" class="fa fa-star-o mr-star-empty index-5-rating-item-1-1"></i>
+						</span> 
+					</p> 
+					<input type="button" class="save-rating" value="OK"> 
+				</form>
+				<span class="ratings-result"> 
+					<span class="mr-star-rating"> 
+						<i class="fa fa-star mr-star-full"></i> 
+						<i class="fa fa-star mr-star-full"></i>
+						<i class="fa fa-star mr-star-full"></i> 
+						<i class="fa fa-star mr-star-full"></i>
+						<i class="fa fa-star-half-o mr-star-half"></i> 
+					</span>
+					<span class="star-result">
+						<span>4.38</span>/<span>5</span>(<span >2665</span>) 
+					</span> 
+				</span>
+			</div>
+		</section>
+	
+	</main>
+
+	<div class="footer">
+		<div class="footer__container container">
+			<div class="footer__row">
+				<div class="footer__col"> © Smartzaim.kz 2016-2020. <br>Все права защищены <br><br> 
+					<a href="tel:+77172727920">+7 (717) 272-79-20</a> <br><br> Содержание сайта носит исключительно информационно-справочный характер. Сервис Smartzaim.kz не является кредитной организацией и не выдает кредиты. Сайт не взимает оплаты с клиента за заявку в выбранный сервис микрокредитования.
+				</div>
+				<div class="footer__col"> Все представленные компании имеют лицензии на соответствующую деятельность.
+					<br> При использовании материалов активная гиперссылка на Smartzaim.kz обязательна.</div>
+				<div class="footer__col">
+					<ul class="footer__menu">
+						<li><a href="#">Статьи</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="faq.html">Часто задаваемые вопросы</a></li>
+						<li><a href="#">Политика конфиденциальности</a></li>
+						<li><a href="#">Пользовательское соглашение</a></li>
+						<li><a href="#">О сайте</a></li>
+						<li><a href="#">Публичная оферта</a></li>
+						<li><a href="#">Курс валют</a></li>
+						<li><a href="#">Вакансии</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer__col">
+					<div>Мы в социальных сетях</div>
+					<ul class="footer__social">
+						<li>
+							<a class="vk" aria-label="vk" href="https://vk.com/smartzaimkz" target="_blank"></a>
+						</li>
+						<li>
+							<a class="inst" aria-label="instagram" href="https://www.instagram.com/smartzaim.kz/"></a>
+						</li>
+						<li>
+							<a class="yt" aria-label="youtube" href="https://www.youtube.com/channel/UCMreDvPVHVU6zMG1hoqSKXw/video" target="_blank"></a>
+						</li>
+					</ul>
+					<div class="footer__logo"> 
+						<a href="#" aria-label="footer">
+							<noscript>
+								<img src="img/uncode-child/logo-footer.png" alt="">
+							</noscript>
+							<img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20%20%22%3E%3C/svg%3E' data-src="img/uncode-child/logo-footer.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		jQuery(function () {
+    setTimeout(function () {
+        jQuery("input.tel").mask("+7 (999) 999-99-99", {
+            autoclear: false
+        });
+    }, 1000);
+		});
+	</script>
+	
+	
+	<script src="libs/autoptimize/lazysizes.min.js"></script>
+	<script src="libs/bj-lazy-load/bj-lazy-load.min.js"></script>
+	<script src="libs/smooth-scroll-up/jquery.scrollUp.min.js"></script>
+	<script src="libs/uncode/common.js"></script>
+	<script src="libs/jquery.maskedinput.min.js"></script>
+	<script src="libs/loan_calculator.js"></script>
+	<script src="libs/rangeslider/rangeslider.min.js"></script>
+	<script src="libs/bs-util-collapse-v4.5.0.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>
